@@ -1,1 +1,1 @@
-# SMX2M8UF5A4_CVEspa-ol
+# SMX2M8UF5A4_CVEspanol
