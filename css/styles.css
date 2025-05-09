@@ -1,0 +1,109 @@
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f4f6f9;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .portada {
+      background-color: #0d2b6b;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .portada h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .portada p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+    .container {
+      display: flex;
+      flex: 1;
+    }
+    .sidebar {
+      width: 30%;
+      background-color: #0d2b6b;
+      color: white;
+      padding: 40px 20px;
+    }
+    .sidebar h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+    .sidebar p {
+      margin: 5px 0;
+    }
+    .section-title {
+      background-color: #153b87;
+      padding: 10px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .main {
+      width: 70%;
+      padding: 40px;
+    }
+    .main h2 {
+      font-size: 18px;
+      color: #0d2b6b;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+    .main p, .main li {
+      color: #333;
+    }
+    footer {
+      background-color: #0d2b6b;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 0;
+      gap: 30px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+    footer i {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Responsive a 500px */
+    @media (max-width: 500px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar, .main {
+        width: 100%;
+        padding: 20px;
+      }
+      .portada h1 {
+        font-size: 28px;
+      }
+      .portada p {
+        font-size: 16px;
+      }
+      footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        font-size: 18px;
+      }
+      footer i {
+        font-size: 18px;
+      }
+    }
